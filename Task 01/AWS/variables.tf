@@ -38,5 +38,7 @@ variable "db_username" {
 }
 
 variable "db_password" {
-  default = "admin123$"
+  description = "RDS master password"
+  type        = string
+  sensitive   = true
 }
