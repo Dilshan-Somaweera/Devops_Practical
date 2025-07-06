@@ -20,13 +20,21 @@ Task 01: AWS Infrastructure
 
 
 Task 02: GCP Kubernetes (GKE)
+
 •	GKE Cluster in asia-south1-a zone
+
 •	WordPress containerized deployment
+
 •	MySQL with persistent storage
+
 •	Kubernetes Secrets for database credentials
+
 •	Network Policies for security
+
 📁 Repository Structure
+
 Devops_Practical/
+
 ├── task01/                 # AWS Terraform Implementation
 │   ├── main.tf
 │   ├── variables.tf
