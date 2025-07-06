@@ -68,21 +68,33 @@ Devops_Practical/
 │       └── network-policy.yaml
 
 🚀 Quick Start
+
 Prerequisites
+
 •	AWS Account with free-tier eligibility
+
 •	GCP Account with free-tier eligibility
+
 •	AWS CLI configured
+
 •	gcloud CLI configured
+
 •	Terraform >= 1.0
+
 •	kubectl installed
+
 Task 01: AWS Deployment
+
 1.	Clone the repository
-git clone https://github.com/Dilshan-Somaweera/Devops_Practical
-cd Devops_Practical/task01
-2.	Configure environment variables using .env file
-sample .env file
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
+   
+      git clone https://github.com/Dilshan-Somaweera/Devops_Practical
+      
+      cd Devops_Practical/task01
+
+3.	Configure environment variables using .env file
+      sample .env file
+      AWS_ACCESS_KEY_ID=
+      AWS_SECRET_ACCESS_KEY=
 
 Edit .env with your AWS credentials
 3.	Load environment variables (PowerShell)
