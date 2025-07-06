@@ -1,4 +1,5 @@
 DevOps Multi-Cloud WordPress Deployment
+
 📋 Overview
 This repository contains the implementation of a DevOps practical exam demonstrating multi-cloud expertise through Infrastructure as Code (IaC) deployment of WordPress applications across AWS and Google Cloud Platform using free-tier resources.
 🏗️ Architecture
