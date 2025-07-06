@@ -97,17 +97,15 @@ Task 01: AWS Deployment
       AWS_SECRET_ACCESS_KEY=
 
 Edit .env with your AWS credentials
-3.	Load environment variables (PowerShell)
-Get-Content .env | ForEach-Object {
-  if ($_ -match "^\s*([^#].+?)\s*=\s*(.+)\s*$") {
-  $key, $value = $matches[1], $matches[2]
-  [System.Environment]::SetEnvironmentVariable($key, $value, "Process")
-  	}}
-4.	Deploy infrastructure
-5.	terraform init
-6.	terraform plan
-7.	terraform apply
-8.	Configure WordPress
+
+3.	Load environment variables (PowerShell) using .setenvvar.ps1
+   
+5.	Deploy infrastructure
+   terraform init
+  	terraform plan
+   terraform apply
+    
+13.	Configure WordPress
 o	SSH into EC2 instance using output IP
 SSH Access
 SSH into the EC2 instance using the public IP from Terraform output:
