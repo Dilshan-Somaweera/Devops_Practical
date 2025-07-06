@@ -36,21 +36,37 @@ Task 02: GCP Kubernetes (GKE)
 Devops_Practical/
 
 ├── task01/                 # AWS Terraform Implementation
+
 │   ├── main.tf
+
 │   ├── variables.tf
+
 │   ├── outputs.tf
+
 ├── task02/                 # GCP GKE Implementation
+
 │   ├── terraform/
+
 │   │   ├── main.tf
+
 │   │   ├── variables.tf
+
 │   │   └── terraform.tfvars
+
 │   └── k8s/
+
 │       ├── mysql-secret.yaml
+
 │       ├── mysql-deployment.yaml
+
 │       ├── mysql-service.yaml
+
 │       ├── wordpress-deployment.yaml
+
 │       ├── wordpress-service.yaml
+
 │       └── network-policy.yaml
+
 🚀 Quick Start
 Prerequisites
 •	AWS Account with free-tier eligibility
