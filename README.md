@@ -7,11 +7,17 @@ This repository contains the implementation of a DevOps practical exam demonstra
 🏗️ Architecture
 
 Task 01: AWS Infrastructure
+
 •	VPC with public/private subnets
+
 •	EC2 t2.micro instance running WordPress
+
 •	RDS db.t3.micro MySQL database
+
 •	Application Load Balancer (ALB)
+
 •	Security Groups with least privilege access
+
 
 Task 02: GCP Kubernetes (GKE)
 •	GKE Cluster in asia-south1-a zone
